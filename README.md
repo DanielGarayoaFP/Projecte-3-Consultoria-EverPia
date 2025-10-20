@@ -65,3 +65,11 @@ Però també descobrireu què significa treballar com a autèntics professionals
 A més, EverPia segueix sent una de les millors empreses on començar:on cada projecte és una història,
  cada error és una lliçó, i cada tècnic… un heroi anònim del backend.
 Benvinguts a EverPia 2: “Sobreviure en una empresa IT” El foc ja està encès. Ara és el vostre torn d’agafar l’extintor… i el teclat.
+
+
+**CONTINGUT**
+PROJECTA 2
+
+Tasca 2
+
+Tasca 3
