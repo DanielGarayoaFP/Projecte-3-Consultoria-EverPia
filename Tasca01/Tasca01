@@ -1,0 +1,38 @@
+# T01: Gestor de Contrasenyes - EverPia
+
+## Breu Descripció del Projecte
+
+EverPiañ ha patit recentment un atac cibernètic que ha provocat una fuita d’informació confidencial d’un projecte en desenvolupament. La investigació ha determinat que una de les causes principals ha estat l’ús d’una contrasenya feble o reutilitzada en un compte tècnic compromès.
+
+Per evitar futurs incidents similars, la Direcció Tècnica ha emès una directriu per implantar l’ús obligatori d’un gestor de contrasenyes entre tot el personal tècnic. L’objectiu és garantir la creació i emmagatzematge de credencials úniques i robustes, millorant així la seguretat global de l’empresa.
+
+## Objectius de la Tasca
+
+1. **Fase 1 - Anàlisi i Justificació:**
+   - Redactar un informe tècnic que expliqui per què les contrasenyes febles o reutilitzades representen un risc crític.
+   - Analitzar i comparar dues alternatives de gestors de contrasenyes: Bitwarden (online) i KeePassXC (offline).
+   - Detallar els avantatges i inconvenients de cada model i oferir una recomanació justificada.
+
+2. **Fase 2 - Guia d’Ús Tècnica:**
+   - Crear un manual operatiu per a l’eina seleccionada a la fase 1.
+   - Cobrir instal·lació, configuració, generació de contrasenyes segures, ús pràctic (desar credencials, autocompletat) i gestió de còpies de seguretat.
+   - Incloure instruccions pas a pas i captures de pantalla.
+
+## Entregables
+
+- **informe.md:** Document amb l’anàlisi, comparativa i recomanació tècnica (Fase 1).
+- **guia.md:** Guia d’ús pràctica per al personal tècnic, amb suport visual (Fase 2).
+- **carpeta d’imatges:** Contindrà totes les captures de pantalla utilitzades a la guia.
+
+---
+
+## Materials i Enllaços de Suport
+
+- [INCIBE: Gestió de contrasenyes segures](https://www.incibe.es/protege-tu-empresa/guia/gestion-contrasenas)
+- [Pàgina oficial de Bitwarden](https://bitwarden.com/)
+- [Pàgina oficial de KeePassXC](https://keepassxc.org/)
+- [INCIBE: Gestors de contrasenyes: què són i com milloren la seguretat](https://www.incibe.es/protege-tu-empresa/blog/gestores-contrasenas)
+
+---
+
+Aquest projecte és fonamental per millorar la seguretat de les dades sensibles i garantir la protecció dels recursos tecnològics d’EverPia davant possibles futures amenaces.
