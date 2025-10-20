@@ -51,15 +51,20 @@ Practicar la documentació tècnica professional amb GitHub i Markdown.
 
 Desenvolupar competències clau: treball en equip, responsabilitat, organització i autonomia.
 A EverPia 2 ja no hi ha professors: hi ha caps de projecte, companys de suport tècnic i clients impacients.
+
  Cada error és una oportunitat per aprendre.
  Cada “pantalla blava” és un examen de serenitat.
  Cada “no sé què ha passat, però ara funciona” és un triomf silenciós.
+
 Aquest projecte no és només un conjunt de pràctiques, sinó una immersió total en el món real de les empreses IT.
  Aprendreu que no n’hi ha prou amb saber instal·lar, sinó que cal entendre, prevenir i comunicar.
 Perquè a EverPia, el lema és clar:
 “Si sobrevius a això... pots sobreviure a qualsevol empresa.”
+
 ✨ Epíleg: l’oportunitat
+
 Sí, és dur.
+
  Sí, tindreu moments en què voldreu llençar el teclat per la finestra.
 Però també descobrireu què significa treballar com a autèntics professionals del món IT: analitzar, decidir, coordinar i mantenir sistemes crítics.
 A més, EverPia segueix sent una de les millors empreses on començar:on cada projecte és una història,
