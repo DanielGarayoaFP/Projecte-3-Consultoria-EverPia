@@ -60,6 +60,12 @@ Es recomana **Bitwarden** com a gestor de contrasenyes per al personal tècnic d
 - Bitwarden ofereix una corba d’aprenentatge suau i una experiència intuïtiva.
 - El xifratge end-to-end i el codi obert garanteixen seguretat i transparència.
 - L’opció d’autenticació en dos factors (2FA) afegeix una capa extra de seguretat.
+- 
+| Estat     | Comentari                |
+|-----------|-------------------------|
+| ![OK](https://img.shields.io/badge/OK-brightgreen)     | Tot funciona bé          |
+| ![Warning](https://img.shields.io/badge/Warning-yellow) | Cal revisar               |
+| ![Error](https://img.shields.io/badge/Error-red)       | Problema crític          |
 
 ---
 TORNAR A LA PAGINA PRINCIPAL; [GESTOR CONTRASENYES](README.md)
