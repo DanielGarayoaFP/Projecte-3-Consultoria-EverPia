@@ -3,6 +3,10 @@
 Aquesta guia mostra com començar a utilitzar Bitwarden per a la gestió segura de contrasenyes.
 
 ## 1. Instal·lació i Configuració Inicial
+![4](https://github.com/user-attachments/assets/09534a8f-41bd-43c4-9236-f1b4be51de74)![2](https://github.com/user-attachments/assets/64cfecb6-93ce-4684-8e91-feb243b9bd10)
+<img width="1200" height="630" alt="3" src="https://github.com/user-attachments/assets/35dd2d97-3694-43c9-9a15-2179f2f11df7" />
+
+![5](https://github.com/user-attachments/assets/b3fae656-ada9-458c-bc86-1bd6b35f70d7)
 
 ### 1.1. Crear un compte Bitwarden
 1. Accedeix a [https://bitwarden.com](https://bitwarden.com)
