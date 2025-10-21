@@ -75,8 +75,4 @@ Benvinguts a EverPia 2: “Sobreviure en una empresa IT” El foc ja està encè
 **CONTINGUT**
 PROJECTA 2
 [Tasca01](Tasca01/README.md)
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 4c19c30 (sojaid)
