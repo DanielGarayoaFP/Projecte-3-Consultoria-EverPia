@@ -1,75 +1,131 @@
-🧑‍💻EverPia 2: “Sobreviure en una empresa IT”
-Després de mesos de feina intensa, nits de pizza i commits a última hora, la consultora EverPia ha viscut el seu primer gran èxit. Els clients estan contents, les presentacions van triomfar i, fins i tot, els tècnics van aconseguir fer funcionar el servidor… sense reiniciar-lo cada cinc minuts.
- Un miracle digne d’estudi.
-Però com diu la llegenda del sector IT:
-“Quan tot funciona, és que no ho has mirat prou bé.”
+# 🧑‍💻 EverPia 2: **Sobreviure en una empresa IT**
 
-El primer projecte va ser un èxit.
- Aquest segon… és una prova de supervivència.
+Després de mesos de feina intensa, nits de pizza i *commits* a última hora... **EverPia** ha viscut el seu primer gran èxit:
 
-Benvinguts a EverPia 2: “Sobreviure en una empresa IT”, una simulació (massa realista) del que passa quan una empresa tecnològica comença a créixer i a rebre més clients dels que pot gestionar.
+✅ Clients contents  
+✅ Presentacions brillants  
+✅ Servidors estables (*sense reiniciar cada 5 minuts*)
 
- Quan el volum augmenta, els problemes també.
- I quan els servidors cremen, vosaltres sou els bombers digitals.
+> 📜 **“Quan tot funciona, és que no ho has mirat prou bé.”**  
+> — Llegendària dita del sector IT
 
-EverPia ja no és una petita consultora. Ara gestiona clients, contractes i serveis crítics 24/7.
-L’equip ha crescut, els projectes s’han multiplicat i el pressupost… bé, el pressupost segueix sent el mateix.
-Els antics alumnes (vosaltres) heu ascendit. Sou els tècnics júnior del departament IT, i us acaben d’assignar el vostre primer gran repte: mantenir viva la infraestructura d’EverPia.
-El vostre dia a dia?
-Apagar focs, resoldre incidències, respondre tickets, mantenir sistemes, documentar-ho tot (abans que algú formategi per error) i, si queda temps, aprendre a no perdre els nervis.
-És la vida real dins una empresa IT:  el caos ben documentat.
+---
 
-🎯 Missió del projecte
-Aquest projecte és la segona temporada d’una sèrie que acaba d’arrencar.
- Si EverPia 1 era sobre construir, EverPia 2 és sobre sobreviure.
-La vostra missió és demostrar que sou capaços de:
-Resoldre problemes reals d’una infraestructura IT.
+## 🔥 La realitat: EverPia 2
 
+**Benvinguts a EverPia 2: “Sobreviure en una empresa IT”**, una simulació (massa realista) del que passa quan una empresa tecnològica comença a créixer… i a rebre **més clients dels que pot gestionar**.
 
-Gestionar serveis essencials (DNS, LDAP, LVM…).
+### 🧨 Quan el volum augmenta...
+- Els **problemes també**.
+- Els **servidors cremen**.
+- I **vosaltres sou els bombers digitals**.
 
+---
 
-Treballar amb rigor tècnic i metodologia àgil.
+## 🧩 Nou escenari
 
+EverPia **ja no és una petita consultora**:
 
-I mantenir la calma mentre tot sembla fallar.
+| Abans                           | Ara                                       |
+|--------------------------------|-------------------------------------------|
+| 3 clients                      | 30 serveis crítics                        |
+| Equip petit                    | Equip en creixement                       |
+| Poc tràfic                     | Infraestructura 24/7                      |
+| Un sol projecte                | Multiprojectes simultanis                |
+| Suport ocasional               | Suport constant                          |
 
+> 🧑‍💻 **Vosaltres sou ara tècnics júnior del departament IT.**
+> I us han assignat el vostre **primer gran repte**:  
+> **Mantenir viva la infraestructura d’EverPia.**
 
-Perquè el coneixement és important, sí, però la serenitat és un servei premium.
-💡 Objectius formatius
-Consolidar coneixements avançats en sistemes, xarxes i serveis corporatius.
+---
 
+## 🎯 Missió del projecte
 
-Aplicar tècniques reals de manteniment i optimització de servidors.
+Aquest projecte és la **segona temporada** d’una sèrie que tot just arrenca.
 
+| EverPia 1                        | EverPia 2                           |
+|----------------------------------|-------------------------------------|
+| 🧱 Construir                     | 🔥 Sobreviure                      |
+| Fundar la base                  | Gestionar el caos                  |
+| Aprendre l'estructura bàsica    | Aprendre a mantenir i escalar      |
 
-Aprendre a resoldre problemes complexos sota pressió.
+### El vostre repte:
 
+- 🔧 Resoldre **problemes reals d’infraestructura IT**
+- 🌐 Gestionar **serveis essencials**: DNS, LDAP, LVM...
+- 🧠 Treballar amb **rigurositat tècnica i metodologies àgils**
+- 🧘‍♀️ Mantenir la calma **mentre tot sembla fallar**
 
-Practicar la documentació tècnica professional amb GitHub i Markdown.
+> 🧊 **El coneixement és important.**  
+> 🚒 Però la serenitat... és un **servei premium**.
 
+---
 
-Desenvolupar competències clau: treball en equip, responsabilitat, organització i autonomia.
-A EverPia 2 ja no hi ha professors: hi ha caps de projecte, companys de suport tècnic i clients impacients.
+## 💡 Objectius formatius
 
- Cada error és una oportunitat per aprendre.
- Cada “pantalla blava” és un examen de serenitat.
- Cada “no sé què ha passat, però ara funciona” és un triomf silenciós.
+🎯 Consolidar coneixements en **sistemes, xarxes i serveis corporatius**  
+⚙️ Aplicar **tècniques reals de manteniment i optimització de servidors**  
+⏱️ Aprendre a **resoldre problemes sota pressió**  
+📝 Practicar **documentació tècnica professional** amb GitHub i Markdown  
+🤝 Desenvolupar competències clau:
+- Treball en equip
+- Responsabilitat
+- Organització
+- Autonomia
 
-Aquest projecte no és només un conjunt de pràctiques, sinó una immersió total en el món real de les empreses IT.
- Aprendreu que no n’hi ha prou amb saber instal·lar, sinó que cal entendre, prevenir i comunicar.
-Perquè a EverPia, el lema és clar:
-“Si sobrevius a això... pots sobreviure a qualsevol empresa.”
+---
 
-✨ Epíleg: l’oportunitat
+## 🧪 El dia a dia a EverPia
 
-Sí, és dur.
+> Això **ja no són pràctiques**. És el món real IT en simulació.
 
- Sí, tindreu moments en què voldreu llençar el teclat per la finestra.
-Però també descobrireu què significa treballar com a autèntics professionals del món IT: analitzar, decidir, coordinar i mantenir sistemes crítics.
-A més, EverPia segueix sent una de les millors empreses on començar:on cada projecte és una història,
- cada error és una lliçó, i cada tècnic… un heroi anònim del backend.
-Benvinguts a EverPia 2: “Sobreviure en una empresa IT” El foc ja està encès. Ara és el vostre torn d’agafar l’extintor… i el teclat.
+- 🚨 **Apagar focs**
+- 🧾 **Respondre tickets**
+- 🛠️ **Resoldre incidències**
+- 🧰 **Mantenir serveis**
+- 🧮 **Documentar-ho tot**
+- 🧘‍♂️ **No perdre els nervis** (si es pot)
+
+---
+
+## 🎮 Cada situació és un nivell nou
+
+| Situació                              | Competència que desenvolupa             |
+|---------------------------------------|------------------------------------------|
+| 🔵 "Pantalla blava"                   | Control emocional i resposta ràpida      |
+| 📤 "No sé què ha passat, però ara va" | Anàlisi post-incidència                  |
+| 📈 Múltiples projectes actius         | Gestió de prioritats                     |
+| 🔐 Usuari esborra dades crítiques     | Gestió de backups i responsabilitats     |
+| 📉 Sistema lent sota càrrega          | Optimització i monitoratge               |
+
+---
+
+## ✨ Epíleg: L’oportunitat
+
+Sí, **és dur**.  
+Sí, **vols llençar el teclat**.  
+Però també...
+
+🛠️ Descobriràs què vol dir **ser professional IT real**  
+🧠 Analitzar, decidir, coordinar, mantenir... **i aprendre de tot**  
+🎓 Aprendràs més en un projecte com aquest que en 10 manuals
+
+---
+
+## 🏁 El lema d’EverPia
+
+> **“Si sobrevius a això... pots sobreviure a qualsevol empresa.”**
+
+---
+
+## 🔥 Ara és el vostre torn
+
+🎮 El foc ja està encès.  
+⌨️ Agafa l’extintor… i el teclat.  
+**Benvinguts a EverPia 2.**
+
+---
 
 
 **CONTINGUT**
