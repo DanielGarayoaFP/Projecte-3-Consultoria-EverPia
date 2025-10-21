@@ -128,6 +128,19 @@ Aprendràs més en un projecte com aquest que en 10 manuals
 
 ---
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pulsadores Adelante y Atrás</title>
+</head>
+<body>
+
+  <button onclick="history.back()">⬅️ Atrás</button>
+  <button onclick="history.forward()">➡️ Adelante</button>
+
+</body>
+</html>
 
 **CONTINGUT**
 PROJECTA 2
