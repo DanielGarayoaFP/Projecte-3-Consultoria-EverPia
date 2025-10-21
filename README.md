@@ -1,4 +1,4 @@
-# 🧑‍💻 EverPia 2: **Sobreviure en una empresa IT**
+# 🧑‍💻 EverPia 2: **Sobreviure en una empresa IT** #
 
 Després de mesos de feina intensa, nits de pizza i *commits* a última hora... **EverPia** ha viscut el seu primer gran èxit:
 
