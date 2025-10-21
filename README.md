@@ -25,6 +25,13 @@ Després de mesos de feina intensa, nits de pizza i *commits* a última hora... 
 ##  Nou escenari
 
 EverPia **ja no és una petita consultora**:
+<table>
+  <tr>
+    <td bgcolor="#d4edda">Cel·la verda</td>
+    <td bgcolor="#f8d7da">Cel·la vermella</td>
+  </tr>
+</table>
+
 
 | Abans                           | Ara                                       |
 |--------------------------------|-------------------------------------------|
