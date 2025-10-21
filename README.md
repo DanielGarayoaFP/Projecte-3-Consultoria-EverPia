@@ -11,18 +11,18 @@ Després de mesos de feina intensa, nits de pizza i *commits* a última hora... 
 
 ---
 
-## 🔥 La realitat: EverPia 2
+## La realitat: EverPia 2
 
 **Benvinguts a EverPia 2: “Sobreviure en una empresa IT”**, una simulació (massa realista) del que passa quan una empresa tecnològica comença a créixer… i a rebre **més clients dels que pot gestionar**.
 
-### 🧨 Quan el volum augmenta...
+###  Quan el volum augmenta...
 - Els **problemes també**.
 - Els **servidors cremen**.
 - I **vosaltres sou els bombers digitals**.
 
 ---
 
-## 🧩 Nou escenari
+##  Nou escenari
 
 EverPia **ja no és una petita consultora**:
 
@@ -40,35 +40,35 @@ EverPia **ja no és una petita consultora**:
 
 ---
 
-## 🎯 Missió del projecte
+##  Missió del projecte
 
 Aquest projecte és la **segona temporada** d’una sèrie que tot just arrenca.
 
 | EverPia 1                        | EverPia 2                           |
 |----------------------------------|-------------------------------------|
-| 🧱 Construir                     | 🔥 Sobreviure                      |
+|  Construir                      |  Sobreviure                      |
 | Fundar la base                  | Gestionar el caos                  |
 | Aprendre l'estructura bàsica    | Aprendre a mantenir i escalar      |
 
 ### El vostre repte:
 
-- 🔧 Resoldre **problemes reals d’infraestructura IT**
-- 🌐 Gestionar **serveis essencials**: DNS, LDAP, LVM...
-- 🧠 Treballar amb **rigurositat tècnica i metodologies àgils**
-- 🧘‍♀️ Mantenir la calma **mentre tot sembla fallar**
+-  Resoldre **problemes reals d’infraestructura IT**
+-  Gestionar **serveis essencials**: DNS, LDAP, LVM...
+-  Treballar amb **rigurositat tècnica i metodologies àgils**
+-  Mantenir la calma **mentre tot sembla fallar**
 
-> 🧊 **El coneixement és important.**  
-> 🚒 Però la serenitat... és un **servei premium**.
+>  **El coneixement és important.**  
+>  Però la serenitat... és un **servei premium**.
 
 ---
 
 ## 💡 Objectius formatius
 
-🎯 Consolidar coneixements en **sistemes, xarxes i serveis corporatius**  
-⚙️ Aplicar **tècniques reals de manteniment i optimització de servidors**  
-⏱️ Aprendre a **resoldre problemes sota pressió**  
-📝 Practicar **documentació tècnica professional** amb GitHub i Markdown  
-🤝 Desenvolupar competències clau:
+ Consolidar coneixements en **sistemes, xarxes i serveis corporatius**  
+ Aplicar **tècniques reals de manteniment i optimització de servidors**  
+ Aprendre a **resoldre problemes sota pressió**  
+ Practicar **documentació tècnica professional** amb GitHub i Markdown  
+ Desenvolupar competències clau:
 - Treball en equip
 - Responsabilitat
 - Organització
@@ -76,28 +76,28 @@ Aquest projecte és la **segona temporada** d’una sèrie que tot just arrenca.
 
 ---
 
-## 🧪 El dia a dia a EverPia
+## El dia a dia a EverPia
 
 > Això **ja no són pràctiques**. És el món real IT en simulació.
 
-- 🚨 **Apagar focs**
-- 🧾 **Respondre tickets**
-- 🛠️ **Resoldre incidències**
-- 🧰 **Mantenir serveis**
-- 🧮 **Documentar-ho tot**
-- 🧘‍♂️ **No perdre els nervis** (si es pot)
+-  **Apagar focs**
+-  **Respondre tickets**
+-  **Resoldre incidències**
+-  **Mantenir serveis**
+-  **Documentar-ho tot**
+-  **No perdre els nervis** (si es pot)
 
 ---
 
-## 🎮 Cada situació és un nivell nou
+##  Cada situació és un nivell nou
 
 | Situació                              | Competència que desenvolupa             |
 |---------------------------------------|------------------------------------------|
-| 🔵 "Pantalla blava"                   | Control emocional i resposta ràpida      |
-| 📤 "No sé què ha passat, però ara va" | Anàlisi post-incidència                  |
-| 📈 Múltiples projectes actius         | Gestió de prioritats                     |
-| 🔐 Usuari esborra dades crítiques     | Gestió de backups i responsabilitats     |
-| 📉 Sistema lent sota càrrega          | Optimització i monitoratge               |
+|  "Pantalla blava"                     | Control emocional i resposta ràpida      |
+|  "No sé què ha passat, però ara va"   | Anàlisi post-incidència                  |
+|  Múltiples projectes actius           | Gestió de prioritats                     |
+|  Usuari esborra dades crítiques       | Gestió de backups i responsabilitats     |
+|  Sistema lent sota càrrega            | Optimització i monitoratge               |
 
 ---
 
@@ -107,22 +107,22 @@ Sí, **és dur**.
 Sí, **vols llençar el teclat**.  
 Però també...
 
-🛠️ Descobriràs què vol dir **ser professional IT real**  
-🧠 Analitzar, decidir, coordinar, mantenir... **i aprendre de tot**  
-🎓 Aprendràs més en un projecte com aquest que en 10 manuals
+Descobriràs què vol dir **ser professional IT real**  
+Analitzar, decidir, coordinar, mantenir... **i aprendre de tot**  
+Aprendràs més en un projecte com aquest que en 10 manuals
 
 ---
 
-## 🏁 El lema d’EverPia
+##  El lema d’EverPia
 
 > **“Si sobrevius a això... pots sobreviure a qualsevol empresa.”**
 
 ---
 
-## 🔥 Ara és el vostre torn
+##  Ara és el vostre torn
 
-🎮 El foc ja està encès.  
-⌨️ Agafa l’extintor… i el teclat.  
+ El foc ja està encès.  
+ Agafa l’extintor… i el teclat.  
 **Benvinguts a EverPia 2.**
 
 ---
