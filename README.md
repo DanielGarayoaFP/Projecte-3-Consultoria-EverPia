@@ -6,7 +6,7 @@ Després de mesos de feina intensa, nits de pizza i *commits* a última hora... 
 ✅ Presentacions brillants  
 ✅ Servidors estables (*sense reiniciar cada 5 minuts*)
 
- 📜 **“Quan tot funciona, és que no ho has mirat prou bé.”**  
+ **“Quan tot funciona, és que no ho has mirat prou bé.”**  
  — Llegendària dita del sector IT
 
 ---
@@ -102,7 +102,7 @@ Aquest projecte és la **segona temporada** d’una sèrie que tot just arrenca.
 
 ---
 
-## ✨ Epíleg: L’oportunitat
+##  Epíleg: L’oportunitat
 
 Sí, **és dur**.  
 Sí, **vols llençar el teclat**.  
