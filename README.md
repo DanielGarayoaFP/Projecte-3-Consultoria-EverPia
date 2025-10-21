@@ -6,8 +6,8 @@ Després de mesos de feina intensa, nits de pizza i *commits* a última hora... 
 ✅ Presentacions brillants  
 ✅ Servidors estables (*sense reiniciar cada 5 minuts*)
 
-> 📜 **“Quan tot funciona, és que no ho has mirat prou bé.”**  
-> — Llegendària dita del sector IT
+ 📜 **“Quan tot funciona, és que no ho has mirat prou bé.”**  
+ — Llegendària dita del sector IT
 
 ---
 
@@ -35,9 +35,9 @@ EverPia **ja no és una petita consultora**:
 | Un sol projecte                | Multiprojectes simultanis                |
 | Suport ocasional               | Suport constant                          |
 
-> 🧑‍💻 **Vosaltres sou ara tècnics júnior del departament IT.**
-> I us han assignat el vostre **primer gran repte**:  
-> **Mantenir viva la infraestructura d’EverPia.**
+🧑‍💻 **Vosaltres sou ara tècnics júnior del departament IT.**
+ I us han assignat el vostre **primer gran repte**:  
+ **Mantenir viva la infraestructura d’EverPia.**
 
 ---
 
@@ -58,8 +58,8 @@ Aquest projecte és la **segona temporada** d’una sèrie que tot just arrenca.
 -  Treballar amb **rigurositat tècnica i metodologies àgils**
 -  Mantenir la calma **mentre tot sembla fallar**
 
->  **El coneixement és important.**  
->  Però la serenitat... és un **servei premium**.
+  **El coneixement és important.**  
+  Però la serenitat... és un **servei premium**.
 
 ---
 
@@ -79,7 +79,7 @@ Aquest projecte és la **segona temporada** d’una sèrie que tot just arrenca.
 
 ## El dia a dia a EverPia
 
-> Això **ja no són pràctiques**. És el món real IT en simulació.
+ Això **ja no són pràctiques**. És el món real IT en simulació.
 
 -  **Apagar focs**
 -  **Respondre tickets**
@@ -116,7 +116,7 @@ Aprendràs més en un projecte com aquest que en 10 manuals
 
 ##  El lema d’EverPia
 
-> **“Si sobrevius a això... pots sobreviure a qualsevol empresa.”**
+**“Si sobrevius a això... pots sobreviure a qualsevol empresa.”**
 
 ---
 
