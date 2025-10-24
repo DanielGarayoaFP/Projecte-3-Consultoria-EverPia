@@ -129,7 +129,9 @@ Aprendràs més en un projecte com aquest que en 10 manuals
 ---
 
 **CONTINGUT**
-PROJECTA 2
+PROJECTA 3
+TASCAS:
+
 [Tasca01](Tasca01/README.md)
 
 [Tasca06](Tasca06/README.md)
