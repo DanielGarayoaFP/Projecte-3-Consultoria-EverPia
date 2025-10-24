@@ -131,4 +131,5 @@ Aprendràs més en un projecte com aquest que en 10 manuals
 **CONTINGUT**
 PROJECTA 2
 [Tasca01](Tasca01/README.md)
-[Tasca02](Tasca02/README.md)
+
+[Tasca06](Tasca06/README.md)
