@@ -133,5 +133,10 @@ PROJECTA 3
 TASCAS:
 
 [Tasca01](Tasca01/README.md)
-
+[Tasca02](Tasca02/README.md)
+[Tasca03](Tasca03/README.md)
+[Tasca04](Tasca04/README.md)
+[Tasca05](Tasca05/README.md)
 [Tasca06](Tasca06/README.md)
+[Tasca07](Tasca07/README.md)
+[Tasca08](Tasca08/README.md)
