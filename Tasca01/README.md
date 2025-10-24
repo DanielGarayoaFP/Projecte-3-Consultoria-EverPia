@@ -9,14 +9,14 @@ Per evitar futurs incidents similars, la Direcció Tècnica ha emès una directr
 ## Objectius de la Tasca
 
 1. **Fase 1 - Anàlisi i Justificació:**
-   - Redactar un informe tècnic que expliqui per què les contrasenyes febles o reutilitzades representen un risc crític.
-   - Analitzar i comparar dues alternatives de gestors de contrasenyes: Bitwarden (online) i KeePassXC (offline).
-   - Detallar els avantatges i inconvenients de cada model i oferir una recomanació justificada.
+   -Redactar un informe tècnic que expliqui per què les contrasenyes febles o reutilitzades representen un risc crític.
+   -Analitzar i comparar dues alternatives de gestors de contrasenyes: Bitwarden (online) i KeePassXC (offline).
+   -Detallar els avantatges i inconvenients de cada model i oferir una recomanació justificada.
 
 2. **Fase 2 - Guia d’Ús Tècnica:**
-   - Crear un manual operatiu per a l’eina seleccionada a la fase 1.
-   - Cobrir instal·lació, configuració, generació de contrasenyes segures, ús pràctic (desar credencials, autocompletat) i gestió de còpies de seguretat.
-   - Incloure instruccions pas a pas i captures de pantalla.
+   -Crear un manual operatiu per a l’eina seleccionada a la fase 1.
+   -Cobrir instal·lació, configuració, generació de contrasenyes segures, ús pràctic (desar credencials, autocompletat) i gestió de còpies de seguretat.
+   -Incloure instruccions pas a pas i captures de pantalla.
 
 ## Entregables
 
@@ -39,4 +39,4 @@ Aquest projecte és fonamental per millorar la seguretat de les dades sensibles 
 --------------------------------
 GUIA: [LA NOSTRA GUIA](guia.md)
 --------------------------------
-TASCA FETA:[TASCA 01- Gestor de contrasenyes](informe.md)
+TASCA[TASCA 01- Gestor de contrasenyes](informe.md)
