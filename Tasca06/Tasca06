@@ -381,4 +381,4 @@ Hi ha servidors d’arrel, que saben on trobar els TLDs, i servidors autoritatiu
  Incondicionals: envien totes les consultes sempre al mateix servidor.
 
 **7 Resolució local i mDNS**  
- El mDNS permet resoldre noms dins d’una xarxa local sense necessitat de servidors DNS, per exemple per connectar a una impressora amb un nom com “impressora.local”.
+ El mDNS permet resoldre noms dins d’una xarxa local sense necessitat de servidors DNS, per exemple per connectar a una impressora amb un nom com “impressora.local”. 
