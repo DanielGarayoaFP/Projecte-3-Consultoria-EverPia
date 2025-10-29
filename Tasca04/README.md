@@ -94,9 +94,11 @@ Ara haurem de crear dos grups de seguretat al directori: tech i manager. **Hem d
 | **T.LAM.05** | Creació d'Usuaris de Prova. | Crear un usuari per a cada grup: **tech01** (membre de tech) i **manager01** (membre de manager).
 
 <img width="330" height="119" alt="13" src="https://github.com/user-attachments/assets/c9e02f32-9ecb-4049-810d-34cf7f72f7a3" /> 
+
 **tech01 i manager01, Els cuals hem de assignar a un grup d’aquesta manera→ tech01 → tech manager01 → manager **   **Un cop posat el nom de l'usuari hem de donarli a UNIX per poder modificar el grup el cual assignarem per cadascun →** 
 
 *<img width="337" height="284" alt="14" src="https://github.com/user-attachments/assets/7b5aea96-44a6-44cd-954a-00c085c17394" />
+
 Finalment **ja** haurem **administrat** i **configurat** el gestor d’usuaris LDAP LAM des de l’eina gràfica.  |
 
 ### 
