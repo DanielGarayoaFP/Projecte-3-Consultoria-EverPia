@@ -163,3 +163,4 @@ Permet entendre com funciona el DNS, com diagnosticar problemes habituals i com 
 Un coneixement sòlid d’aquests conceptes és essencial per garantir una resolució de noms fiable, ràpida i segura dins de qualsevol infraestructura de xarxa.
 
 [Resposta de la tasca](Tasca06)
+[Video](Video)
