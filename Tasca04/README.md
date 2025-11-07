@@ -52,6 +52,44 @@ La Consultora EverPia ha de complir estrictament amb les següents tasques d'ins
 | **T.LAM.03** | Configuració per defecte. | Establir la configuració predeterminada perquè els nous usuaris s'ubiquin a l'OU **users** i els nous grups a l'OU **groups**. **Ara entrem a la configuració LAN Ara li donem en aquesta nova pestaña a (Edita els perfils del servidor)  <img width="331" height="123" alt="10" src="https://github.com/user-attachments/assets/3388c985-1ea1-4a10-b7db-29cc85c5a87a" /> ara afegim la contrasenya que es “ lam “ I ens donara el permis de entrar al servell del usuari. →![][image14]**  ![][image15] ![][image16] Ara a la segona pestanya **“Tipos de cuentas”** **configurarem** els **OUs** per usuaris i grups. <img width="329" height="68" alt="11" src="https://github.com/user-attachments/assets/4d6c8dc8-3241-4f82-9b8c-67e52b7a167e" />|
 | **T.LAM.04** | Creació de Grups. | Crear dos grups de seguretat al directori: **tech** i **manager**.Hem de fer clic a guardar i ens portarà a l’apartat de admin en el cual hem de iniciar sesio ham el seguent usuari i la seguent contrasenya →**adminp@ssw0rd**  La primera vegada que entrem a OU hem de donar li a crear per tal de poder començar a crear els diferents group en els quals haurem d’afegir els usuaris determinats que ens dona la tasca → <img width="328" height="72" alt="12" src="https://github.com/user-attachments/assets/10faa43e-2f69-4dfb-bc0d-9dcb2b4f76cd" />  | Ara haurem de crear dos grups de seguretat al directori: tech i manager. **Hem d’afegir el nom del Grup \< Donar-li ha Guardar \< Crear el altre Grup**  |
 | **T.LAM.05** | Creació d'Usuaris de Prova. | Crear un usuari per a cada grup: **tech01** (membre de tech) i **manager01** (membre de manager).<img width="330" height="119" alt="13" src="https://github.com/user-attachments/assets/c9e02f32-9ecb-4049-810d-34cf7f72f7a3" />  **tech01 i manager01, Els cuals hem de assignar a un grup d’aquesta manera→ tech01 → tech manager01 → manager **   **Un cop posat el nom de l'usuari hem de donarli a UNIX per poder modificar el grup el cual assignarem per cadascun →***<img width="337" height="284" alt="14" src="https://github.com/user-attachments/assets/7b5aea96-44a6-44cd-954a-00c085c17394" /> Finalment **ja** haurem **administrat** i **configurat** el gestor d’usuaris LDAP LAM des de l’eina gràfica.  |
+[Innovatech (1).md](https://github.com/user-attachments/files/23416022/Innovatech.1.md)
+### 
 
+### 
+
+### **4\. Integració de Client (Client Ubuntu Desktop)**
+
+| ID | Descripció de la Tasca | Detalls de la Configuració |
+| :---- | :---- | :---- |
+| **T.CLI.01** | Instal·lació del Client. | Instal·lar un client Ubuntu Desktop i configurar la interfície de xarxa per comunicar-se amb el servidor(Host-Only). La primera sera en xarxa NAT 
+
+<img width="325" height="141" alt="1" src="https://github.com/user-attachments/assets/6dd99164-2400-49db-8be0-52f6b6d22ee7" />
+La segona ip sera ADAPTADOR NOMÉS AMFITRIÓ 
+
+|<img width="328" height="142" alt="2" src="https://github.com/user-attachments/assets/d6cad52f-7118-461f-af51-5f3738e3ad17" />
+
+| **T.CLI.02** | Resolució de Noms. | Configurar l'arxiu d'**hosts** del client per resoldre l'adreça IP del servidor a **server.innovatechXX.test**. S'ha de proporcionar una instantánea (snapshot) de la màquina client un cop fet el canvi.
+
+|<img width="326" height="106" alt="3" src="https://github.com/user-attachments/assets/9e65a4d5-8bde-448c-898b-ed2b0286df13" />
+
+| **T.CLI.03** | Validació de la Connectivitat LDAP. | Comprovar la connectivitat amb el servidor fent una consulta **ldapsearch** des del client. Ping la nostra ip per poder connectar-nos <img width="303" height="210" alt="4" src="https://github.com/user-attachments/assets/07634fce-0d84-4dfb-8727-1e1cf8f0a8fc" />
+
+| **T.CLI.04** | Mòduls d'Autenticació. | Instal·lar els mòduls necessaris per permetre l'autenticació amb LDAP.
+
+|<img width="325" height="720" alt="5 1" src="https://github.com/user-attachments/assets/67fcc8a0-f15f-4067-908f-1be96f8ebf7d" />
+
+<img width="268" height="399" alt="5" src="https://github.com/user-attachments/assets/a45a1319-9ee5-401a-9b16-dcce5bf55cc6" />
+
+
+| **T.CLI.05** | Configuració del Client. | Modificar els arxius de configuració del client necessaris. S'han de mostrar **clarament els canvis realitzats** en el codi dels arxius.
+|<img width="334" height="503" alt="6" src="https://github.com/user-attachments/assets/fbdd1c71-aab9-4c41-aab0-44665d4d14b4" />
+
+| **T.CLI.06** | Comprovació del Sistema. | Reiniciar els serveis i verificar amb la comanda **getent passwd** que els usuaris del directori són visibles localment.
+
+|<img width="332" height="269" alt="7" src="https://github.com/user-attachments/assets/cfef67ed-0cc7-4eb8-9135-5ab3d2c0b0f3" />
+
+| **T.CLI.07** | Prova d'Accés Final. | Reiniciar el client i iniciar sessió amb l'usuari **tech01**. Es requereix una captura de pantalla que demostri l'accés correcte i la **creació automàtica de la carpeta personal** de l'usuari.
+
+|<img width="322" height="244" alt="8" src="https://github.com/user-attachments/assets/45065f20-893e-4ff7-9da6-1573bcd76c24" />
 
 
