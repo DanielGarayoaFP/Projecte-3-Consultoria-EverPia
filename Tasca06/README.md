@@ -207,8 +207,7 @@ nslookup
 🧾 Comanda 1: Consulta Bàsica de Registre A
 Ordre:
 
-bash
-Copia el codi
+
 dig xtec.cat A
 📄 Resultats:
 
@@ -219,8 +218,7 @@ IP: 83.247.151.214
 🧭 Comanda 2: Consulta de Servidors de Noms (NS)
 Ordre:
 
-bash
-Copia el codi
+
 dig tecnocampus.cat NS
  <img width="723" height="169" alt="2" src="https://github.com/user-attachments/assets/b1dc3aca-b566-4ded-a9da-641a236623a9" />
 
@@ -241,8 +239,7 @@ El TTL representa el temps de validesa de la resposta.
 📜 Comanda 3: Consulta Detallada SOA
 Ordre:
 
-bash
-Copia el codi
+
 dig escolapia.cat SOA
 <img width="608" height="168" alt="4" src="https://github.com/user-attachments/assets/dad574a7-de1b-4889-b163-8fe4df68d073" />
 
@@ -258,8 +255,6 @@ El registre SOA (Start Of Authority) conté informació de gestió i control de 
 🔁 Comanda 4: Consulta de Resolució Inversa
 Ordre:
 
-bash
-Copia el codi
 dig -x 147.83.2.135
 📸 ![][image6]
 📜 “Possem aquesta comanda per que et doni la informació de forma mes detallada.”
