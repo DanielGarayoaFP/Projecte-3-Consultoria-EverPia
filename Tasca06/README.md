@@ -162,6 +162,209 @@ Aquest material forma part de la sessió formativa per al personal tècnic de Di
 Permet entendre com funciona el DNS, com diagnosticar problemes habituals i com interpretar resultats de les principals eines CLI (dig, nslookup).
 Un coneixement sòlid d’aquests conceptes és essencial per garantir una resolució de noms fiable, ràpida i segura dins de qualsevol infraestructura de xarxa.
 
+
+|**RESPOSTA**|
+
+# 🌐 **T06: Fonaments del Servei DNS**
+
+---
+
+## 🧩 **EXERCICI: Fase Pràctica — Diagnosi de Noms (Auditoria amb CLI)**
+
+### 💻 Instal·lació de la màquina **Zorin**
+
+![imatge1](img/1.png)
+
+---
+
+### ⚙️ Configuració inicial
+
+Un cop hem configurat l’idioma **“Español”** i hem afegit que el **país és Espanya**,  
+hem de configurar **dues interfícies** de xarxa:
+
+- **Primera interfície:** `NAT`  
+- **Segona interfície:** `Adaptador pont` amb la IP correctament configurada
+
+🧠 *L’exercici demana que la primera sigui NAT i la segona adaptador pont, després configurem la IP.*
+
+---
+
+### 🖥️ Obrir el terminal
+
+1. Fes clic al menú de **Zorin**
+2. Escriu **“terminal”**
+3. Obre’l ✅
+
+---
+
+### 🔍 Comprovar eines DNS
+
+Verifiquem si tenim instal·lades les ordres **`dig`** i **`nslookup`**:
+
+```bash
+dig -v
+nslookup
+🧠 PART A — Diagnosi Avançada amb dig
+🧾 Comanda 1: Consulta Bàsica de Registre A
+Ordre:
+
+bash
+Copia el codi
+dig xtec.cat A
+📄 Resultats:
+
+TTL: 240
+
+IP: 83.247.151.214
+
+🧭 Comanda 2: Consulta de Servidors de Noms (NS)
+Ordre:
+
+bash
+Copia el codi
+dig tecnocampus.cat NS
+📸 ![][image2]
+📸 ![][image3]
+
+Servidors de noms autoritatius:
+
+ns1.tecnocampus.cat
+
+ns2.tecnocampus.cat
+
+🧩 Anàlisi:
+
+Els registres NS indiquen quins servidors tenen autoritat sobre el domini.
+El TTL representa el temps de validesa de la resposta.
+
+📜 Comanda 3: Consulta Detallada SOA
+Ordre:
+
+bash
+Copia el codi
+dig escolapia.cat SOA
+📸 ![][image4]
+📸 ![][image5]
+
+📧 Correu de l’administrador: dns1.nominalia.com
+🔢 Número de sèrie: 1761028965
+
+🧾 Explicació:
+El registre SOA (Start Of Authority) conté informació de gestió i control de la zona DNS.
+
+🔁 Comanda 4: Consulta de Resolució Inversa
+Ordre:
+
+bash
+Copia el codi
+dig -x 147.83.2.135
+📸 ![][image6]
+📜 “Possem aquesta comanda per que et doni la informació de forma mes detallada.”
+📸 ![][image7]
+
+🔍 Nom associat a la IP:
+host147-83-2-135.uab.cat
+
+⚠️ Si no apareix cap “ANSWER SECTION” o “Authoritative answers”, vol dir que no hi ha registre PTR configurat.
+
+📸 ![][image8]
+
+🧮 Comprovació de Resolució amb nslookup (Multiplataforma)
+🧱 Comanda 1: Consulta Bàsica no Autoritativa
+📸 ![][image9]
+
+bash
+Copia el codi
+set type=A
+tecnocampus.cat
+📸 ![][image10]
+
+📄 Resultat:
+
+“Non-authoritative answer” → La resposta ve d’un servidor intermediari (caché DNS), no del servidor autoritatiu.
+
+🏛️ Comanda 2: Consulta Autoritativa
+Consulta prèvia:
+
+bash
+Copia el codi
+dig NS tecnocampus.cat
+Exemple de servidor autoritatiu: ns1.tecnocampus.cat
+
+Configuració a nslookup:
+
+bash
+Copia el codi
+server ns1.tecnocampus.cat
+set type=A
+tecnocampus.cat
+📸 ![][image11]
+
+✅ Ara la resposta és autoritativa, sense el text “Non-authoritative answer”.
+
+📌 Diferències:
+
+La resposta ve directament del servidor autoritatiu
+
+El TTL pot variar
+
+És la resposta oficial del domini
+
+🔎 També podem provar amb escolapia.cat
+📸 ![][image12]
+
+🧭 Fase 2: Conceptes i Jerarquia DNS
+🌲 1. Jerarquia i estructura del DNS
+El DNS és com un arbre jeràrquic:
+
+A dalt de tot hi ha l’arrel (Root)
+
+Sota la Root hi ha els TLDs (.com, .cat, .es, etc.)
+
+Després els dominis de segon nivell (google, openai...)
+
+🧩 Exemple:
+www.google.com = subdomini www + domini google + TLD .com
+
+⚙️ 2. Procés de resolució
+Quan escrius una URL, el teu ordinador busca la IP corresponent amb:
+
+🔁 Consulta recursiva: el servidor DNS resol tot el procés i torna la resposta final
+
+🪜 Consulta iterativa: el servidor et diu a quin altre servidor has de preguntar
+
+📌 Hi ha servidors d’arrel, TLD i autoritius (els que tenen la informació final).
+
+🗂️ 3. Tipus de zones
+Tipus de Zona	Funció
+Zona directa	Converteix un nom en IP → (ex: www.openai.com → 192.168.1.1)
+Zona inversa	Converteix una IP en nom
+Zona primària	Conté els registres originals
+Zona secundària	Còpia sincronitzada de la primària
+
+📋 4. Tipus de registres DNS
+Tipus	Descripció
+A	Associa un nom amb una adreça IPv4
+CNAME	Crea un àlies que apunta a un altre nom
+MX	Indica quin servidor rep el correu
+NS	Defineix els servidors autoritatius
+TXT	Conté informació extra (verificacions, seguretat, SPF, DKIM...)
+
+💡 5. Conceptes essencials
+Resposta autoritativa: ve del servidor amb la informació oficial
+
+TTL (Time To Live): temps de validesa d’una resposta en caché
+
+SOA (Start of Authority): informació administrativa de la zona (responsable, número de sèrie, intervals d’actualització…)
+
+🚀 6. Reenviadors (Forwarders)
+Condicionals: envien consultes segons el domini o tipus
+
+Incondicionals: reenviament de totes les consultes a un mateix servidor
+
+🏠 7. Resolució local i mDNS
+El mDNS (Multicast DNS) permet resoldre noms dins d’una xarxa local sense servidors DNS centrals.
+🔹 Exemple: connectar a una impressora amb un nom com impressora.local.
 [Resposta de la tasca](Tasca06)
 
 [Video](Video)
