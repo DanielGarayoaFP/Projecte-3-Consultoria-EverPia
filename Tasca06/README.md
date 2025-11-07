@@ -334,7 +334,7 @@ Quan escrius una URL, el teu ordinador busca la IP corresponent amb:
 
 🗂️ 3. Tipus de zones
 Tipus de Zona	Funció
-Zona directa	Converteix un nom en IP → (ex: www.openai.com → 192.168.1.1)
+Zona directa	Converteix un nom en IP --> 192.168.1.1
 Zona inversa	Converteix una IP en nom
 Zona primària	Conté els registres originals
 Zona secundària	Còpia sincronitzada de la primària
@@ -363,5 +363,8 @@ Incondicionals: reenviament de totes les consultes a un mateix servidor
 El mDNS (Multicast DNS) permet resoldre noms dins d’una xarxa local sense servidors DNS centrals.
 🔹 Exemple: connectar a una impressora amb un nom com impressora.local.
 [Resposta de la tasca](Tasca06)
+
+**VIDEO**
+
 
 [Video](Video)
