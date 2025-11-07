@@ -182,8 +182,8 @@ Un coneixement sòlid d’aquests conceptes és essencial per garantir una resol
 Un cop hem configurat l’idioma **“Español”** i hem afegit que el **país és Espanya**,  
 hem de configurar **dues interfícies** de xarxa:
 
-- **Primera interfície:** `NAT`  
-- **Segona interfície:** `Adaptador pont` amb la IP correctament configurada
+- **Primera interfície:** NAT  
+- **Segona interfície:** Adaptador pont amb la IP correctament configurada
 
 🧠 *L’exercici demana que la primera sigui NAT i la segona adaptador pont, després configurem la IP.*
 
@@ -199,9 +199,8 @@ hem de configurar **dues interfícies** de xarxa:
 
 ### 🔍 Comprovar eines DNS
 
-Verifiquem si tenim instal·lades les ordres **`dig`** i **`nslookup`**:
+Verifiquem si tenim instal·lades les ordres **dig** i **nslookup**:
 
-```bash
 dig -v
 nslookup
 🧠 PART A — Diagnosi Avançada amb dig
@@ -223,8 +222,10 @@ Ordre:
 bash
 Copia el codi
 dig tecnocampus.cat NS
-📸 ![][image2]
-📸 ![][image3]
+ <img width="723" height="169" alt="2" src="https://github.com/user-attachments/assets/b1dc3aca-b566-4ded-a9da-641a236623a9" />
+
+
+<img width="435" height="288" alt="3" src="https://github.com/user-attachments/assets/67b06993-81c3-4200-b89c-168b76ada4a2" />
 
 Servidors de noms autoritatius:
 
@@ -243,8 +244,10 @@ Ordre:
 bash
 Copia el codi
 dig escolapia.cat SOA
-📸 ![][image4]
-📸 ![][image5]
+<img width="608" height="168" alt="4" src="https://github.com/user-attachments/assets/dad574a7-de1b-4889-b163-8fe4df68d073" />
+
+<img width="664" height="119" alt="5" src="https://github.com/user-attachments/assets/a20d0d1c-c9b8-46f9-80af-bbe88b398432" />
+
 
 📧 Correu de l’administrador: dns1.nominalia.com
 🔢 Número de sèrie: 1761028965
@@ -267,17 +270,17 @@ host147-83-2-135.uab.cat
 
 ⚠️ Si no apareix cap “ANSWER SECTION” o “Authoritative answers”, vol dir que no hi ha registre PTR configurat.
 
-📸 ![][image8]
+<img width="201" height="20" alt="8" src="https://github.com/user-attachments/assets/72a561ec-3618-4ad9-b7a1-e951b01c7071" />
+
 
 🧮 Comprovació de Resolució amb nslookup (Multiplataforma)
 🧱 Comanda 1: Consulta Bàsica no Autoritativa
-📸 ![][image9]
+<img width="629" height="460" alt="7" src="https://github.com/user-attachments/assets/422208fc-1c95-44f5-bbc0-a32522873136" />
 
-bash
-Copia el codi
+
 set type=A
 tecnocampus.cat
-📸 ![][image10]
+
 
 📄 Resultat:
 
@@ -286,15 +289,12 @@ tecnocampus.cat
 🏛️ Comanda 2: Consulta Autoritativa
 Consulta prèvia:
 
-bash
-Copia el codi
 dig NS tecnocampus.cat
 Exemple de servidor autoritatiu: ns1.tecnocampus.cat
 
 Configuració a nslookup:
 
-bash
-Copia el codi
+
 server ns1.tecnocampus.cat
 set type=A
 tecnocampus.cat
@@ -311,7 +311,9 @@ El TTL pot variar
 És la resposta oficial del domini
 
 🔎 També podem provar amb escolapia.cat
-📸 ![][image12]
+
+<img width="502" height="301" alt="9" src="https://github.com/user-attachments/assets/862e84fb-ee5b-47f0-b799-f4150a6525e6" />
+
 
 🧭 Fase 2: Conceptes i Jerarquia DNS
 🌲 1. Jerarquia i estructura del DNS
