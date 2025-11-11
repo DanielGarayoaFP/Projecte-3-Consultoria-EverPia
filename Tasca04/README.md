@@ -1,3 +1,4 @@
+|----|-----------------------------|--------------------------|
 ## **Plec de Condicions Tècniques (PCT)**|
 |Projecte: Implementació del Servei de Directori LDAP per a Entorn de Proves Innovatech|
 |Client (Beneficiari): Innovatech (Startup)| 
