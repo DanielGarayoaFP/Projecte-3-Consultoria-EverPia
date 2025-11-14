@@ -41,7 +41,6 @@ La vostra presentació ha d’abordar els punts següents:
 - Realització de **material per fer presentacions**
 - **Presentacions orals** davant el client
 
-> Prepareu-vos per ser **clars**, **tècnics** però **accessibles**. La vostra presentació ha de ser **convincente**, ja que d’ella depèn l’aprovació del pressupost per a la implementació dels nous servidors de fitxers.
 
 ---
 [Tornar a la pagina principal](../README.md)
