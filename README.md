@@ -143,4 +143,4 @@ TASCAS:
 
 PROJECTA 3 PROJECTES:
 
-[Producte7](Producte7.md)
+[Producte7](Producte7.md/README.md)
