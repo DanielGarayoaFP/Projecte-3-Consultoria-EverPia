@@ -143,4 +143,8 @@ TASCAS:
 
 PROJECTA 3 PROJECTES:
 
+[Producte1](Producte1/README.md)
+[Producte2](Producte2/README.md)
+[Producte3](Producte3/README.md)
+[Producte4](Producte4/README.md)
 [Producte7](Producte7/README.md)
