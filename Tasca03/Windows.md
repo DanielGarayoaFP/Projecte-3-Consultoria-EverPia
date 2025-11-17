@@ -93,3 +93,5 @@ Desfer l’espai anterior i crear un amb els tres discos que sigui mirall triple
 <img width="479" height="499" alt="16" src="https://github.com/user-attachments/assets/33440a43-2a5a-435e-872b-a26dea0c0b83" />
 
 <img width="726" height="492" alt="º7" src="https://github.com/user-attachments/assets/8aa9e581-4403-4513-9bba-d3b4849c923f" />
+
+[Tornar enrere](README.md)
