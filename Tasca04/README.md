@@ -102,12 +102,23 @@ S'ha de proporcionar una instantánea (snapshot) de la màquina client un cop fe
  
 <img width="303" height="210" alt="4" src="https://github.com/user-attachments/assets/07634fce-0d84-4dfb-8727-1e1cf8f0a8fc" />
 
- **T.CLI.04** | Mòduls d'Autenticació. | Instal·lar els mòduls necessaris per permetre l'autenticació amb LDAP.
  
-<img width="325" height="720" alt="5 1" src="https://github.com/user-attachments/assets/67fcc8a0-f15f-4067-908f-1be96f8ebf7d" />
+### 3.4 Compravació connexió
 
-<img width="268" height="399" alt="5" src="https://github.com/user-attachments/assets/a45a1319-9ee5-401a-9b16-dcce5bf55cc6" />
+```bash
+ldapsearch -x -D 'cn=admin,dc=innovatechXX,dc=test' -W -H ldap://server.innovatechXX.test -b 'dc=innovatechXX,dc=test' objectClass=posixAccount uid'
+```
 
+<img width="661" height="477" alt="image" src="https://github.com/user-attachments/assets/ae45ccb7-9ad3-49b8-af8d-b896967d6d2b" />
+
+### 3.5 Configuracions
+
+Comanda:
+```bash
+sudo nano /etc/nsswitch.conf
+```
+
+<img width="666" height="482" alt="image" src="https://github.com/user-attachments/assets/5a5f61ad-4e84-43b0-9bbf-d9596f453365" />
  **T.CLI.05** | Configuració del Client. | Modificar els arxius de configuració del client necessaris. S'han de mostrar **clarament els canvis realitzats** en el codi dels arxius.
  
 <img width="334" height="503" alt="6" src="https://github.com/user-attachments/assets/fbdd1c71-aab9-4c41-aab0-44665d4d14b4" />
